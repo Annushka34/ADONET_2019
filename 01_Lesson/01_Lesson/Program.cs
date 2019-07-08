@@ -132,6 +132,7 @@ namespace _01_Lesson
                 "2. Read",
                 "3. Update",
                 "4. Delete"
+                //---add Get by Id
             };
             while (true)
             {
