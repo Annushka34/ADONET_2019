@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7b47ae4d09874d28bc4c587000919e07" Name="Diagram1">
+        <EntityTypeShape EntityType="BookShopPublisherModel.Address" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShopPublisherModel.Author" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShopPublisherModel.Book" Width="1.5" PointX="7.5" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShopPublisherModel.Category" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShopPublisherModel.Country" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShopPublisherModel.Incomes" Width="1.5" PointX="9.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShopPublisherModel.Pictures" Width="1.5" PointX="9.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShopPublisherModel.ProfitFromSale" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShopPublisherModel.Publish" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShopPublisherModel.Sales" Width="1.5" PointX="12.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShopPublisherModel.Shop" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookShopPublisherModel.UserProfile" Width="1.5" PointX="7.5" PointY="11.75" IsExpanded="true" />
+        <AssociationConnector Association="BookShopPublisherModel.FK_Address_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShopPublisherModel.Fk_Author_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShopPublisherModel.Fk_Author_Publish" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShopPublisherModel.Fk_Book_Author" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShopPublisherModel.FK_UserProfile_Author" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShopPublisherModel.FK__Picture__BookId__29221CFB" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShopPublisherModel.Fk_Book_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShopPublisherModel.Fk_Incomes_Book" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShopPublisherModel.Fk_Sales_Book" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShopPublisherModel.FK_Publish_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShopPublisherModel.Fk_Shop_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShopPublisherModel.Fk_Incomes_Shop" ManuallyRouted="false" />
+        <AssociationConnector Association="BookShopPublisherModel.Fk_Sales_Shop" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
