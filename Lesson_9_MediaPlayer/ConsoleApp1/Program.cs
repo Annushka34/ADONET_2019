@@ -15,8 +15,8 @@ namespace ConsoleApp1
             EfContext context = new EfContext();
 
             Genre genre = new Genre();
-            genre.Color = "pink";
-            genre.GenreName = "pop";
+            genre.Color = "blue";
+            genre.GenreName = "classic";
 
             context.Genres.Add(genre);
             context.SaveChanges();

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{72EED0E8-5DF3-4EC7-BB5E-9EB52A387DCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaProject", "MediaProject\MediaProject.csproj", "{1EF2E2EB-0C41-4BE9-89CA-2150E6A52DCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{72EED0E8-5DF3-4EC7-BB5E-9EB52A387DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72EED0E8-5DF3-4EC7-BB5E-9EB52A387DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72EED0E8-5DF3-4EC7-BB5E-9EB52A387DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EF2E2EB-0C41-4BE9-89CA-2150E6A52DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF2E2EB-0C41-4BE9-89CA-2150E6A52DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF2E2EB-0C41-4BE9-89CA-2150E6A52DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF2E2EB-0C41-4BE9-89CA-2150E6A52DCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
